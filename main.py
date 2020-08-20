@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 current_path = os.getcwd()
 assets_path = os.path.join(current_path, "assets")
 data = os.path.join(assets_path, "covid.csv")
-pickle_path = os.path.join(assets_path, "covid_predict.pkl")
+pickle_path = os.path.join(assets_path, "covid_.pkl")
 df = pd.read_csv(data)
 df = df.dropna()
 
